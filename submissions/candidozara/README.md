@@ -60,16 +60,22 @@ Antes de qualquer cálculo, cruzei minhas anotações e o código que eu já tin
 | [`process-log/tecnica/`](process-log/tecnica/) | Documentação técnica e o process log completo com IA |
 | [`docs/como_rodar.md`](docs/como_rodar.md) | Como rodar o motor e o painel |
 
-> Observação: no process log, caminhos citados como `tecnica/churn_engine/...` correspondem a `solution/churn_engine/...` nesta submissão; `tecnica/*.md` estão em `process-log/tecnica/`. Os binários do executável (`build/`, `dist/`) não foram enviados por tamanho — são gerados com `build_exe.py`.
+> Observação: no process log, caminhos citados como `tecnica/churn_engine/...` correspondem a `solution/churn_engine/...` nesta submissão; `tecnica/*.md` estão em `process-log/tecnica/`. O executável Windows não vai dentro do PR (≈150 MB, acima do limite do GitHub): está publicado na Release do fork e pode ser regerado com `build_exe.py`.
 
 ### Como rodar (resumo)
+
+**Sem instalar nada (Windows):** baixe o executável na [Release `churn-engine-v1.0`](https://github.com/candidozara/ai-master-challenge/releases/tag/churn-engine-v1.0) (`churn_engine_windows.zip`), extraia e dê dois cliques em `churn_engine.exe` — o painel abre no navegador.
+
+**Pelo código-fonte:**
 
 ```bash
 cd solution/churn_engine
 pip install -r requirements.txt
-python main.py            # menu interativo
-python main.py --painel   # abre o painel direto
+python main.py            # abre o painel no navegador
+python main.py --menu     # menu no terminal, sem navegador
 ```
+
+Passo a passo completo (incluindo o aviso do Windows SmartScreen e como gerar o `.exe`): [`docs/como_rodar.md`](docs/como_rodar.md).
 
 ---
 

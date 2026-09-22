@@ -4,12 +4,15 @@ Motor analítico de diagnóstico de churn, desenhado para ser **agnóstico de fo
 
 ## Como rodar
 
-Não precisa instalar nada à parte -- na primeira vez numa máquina nova,
-`main.py` instala sozinho o que faltar.
+**Sem Python (Windows):** baixe `churn_engine_windows.zip` na [Release](https://github.com/candidozara/ai-master-challenge/releases/tag/churn-engine-v1.0), extraia e dê dois cliques em `churn_engine.exe` — o painel abre no navegador. Passo a passo completo em [`docs/como_rodar.md`](../../docs/como_rodar.md).
+
+**Com Python:**
 
 ```bash
-python main.py            # menu no terminal, explica cada opção (dados de exemplo, dados próprios, painel, validar, sair)
-python main.py --painel   # pula o menu, abre o painel gráfico direto no navegador
+pip install -r requirements.txt
+python main.py                        # abre o painel gráfico no navegador
+python main.py --menu                 # menu no terminal (dados de exemplo, dados próprios, validar, sair)
+python main.py --output-dir outputs   # roda o motor direto com os dados de exemplo
 ```
 
 Os 5 arquivos CSV originais (`ravenstack_*.csv`) precisam estar em `data/` -- já vêm no projeto. A opção 4 do menu (ou `python validar_outputs.py`) confere se as 4 saídas estão corretas e consistentes entre si.
