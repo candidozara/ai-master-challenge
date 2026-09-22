@@ -1,0 +1,11 @@
+# Configuração do Streamlit pro painel gráfico (dashboard.py).
+#
+# toolbarMode = "minimal" tira a barra de ferramentas que o Streamlit
+# desenha sozinho no canto superior direito -- em especial o botão
+# "Deploy" (que serve pra publicar o app no Streamlit Community Cloud, algo
+# que não faz sentido aqui: este é um programa local, não tem "nuvem" pra
+# mandar publicar). O resto da barra (menu de três pontinhos com "Clear
+# cache", "Print", "About" etc.) também some junto -- não tinha uso real
+# pra quem só está usando o painel pra ver o diagnóstico de churn.
+[client]
+toolbarMode = "minimal"

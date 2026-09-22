@@ -1,0 +1,22 @@
+{
+  "id": "churn-engine_1789861716560",
+  "name": "Churn Engine (Diagnóstico de Churn)",
+  "slug": "churn-engine",
+  "enabled": true,
+  "provider": "custom-mcp",
+  "type": "mcp",
+  "icon": "📉",
+  "tagline": "Diagnóstico de churn: contas ativas em risco, segmentos, qualidade do modelo preditivo, sugestão de mapeamento De/Para para dados novos e recomendação de ação por conta.",
+  "mcp": {
+    "transport": "stdio",
+    "command": "python",
+    "args": [
+      "<CAMINHO_DO_PROJETO>\\solution\\churn_engine\\integrations\\g4os_mcp_server.py"
+    ],
+    "authType": "none"
+  },
+  "isAuthenticated": true,
+  "connectionStatus": "untested",
+  "createdAt": 1789861716560,
+  "updatedAt": 1789861716560
+}

@@ -1,0 +1,54 @@
+{
+  "accounts": {
+    "account_id": "canonical_id",
+    "account_name": "canonical_name",
+    "industry": "canonical_industry",
+    "country": "canonical_country",
+    "signup_date": "canonical_signup_date",
+    "referral_source": "canonical_referral_source",
+    "plan_tier": "canonical_plan",
+    "seats": "canonical_seats",
+    "is_trial": "canonical_is_trial",
+    "churn_flag": "canonical_is_churn_account"
+  },
+  "subscriptions": {
+    "subscription_id": "canonical_sub_id",
+    "account_id": "canonical_id",
+    "start_date": "canonical_sub_start",
+    "end_date": "canonical_sub_end",
+    "plan_tier": "canonical_sub_plan",
+    "seats": "canonical_sub_seats",
+    "mrr_amount": "canonical_revenue",
+    "arr_amount": "canonical_arr",
+    "billing_frequency": "canonical_billing_frequency",
+    "upgrade_flag": "canonical_upgrade",
+    "downgrade_flag": "canonical_downgrade",
+    "churn_flag": "canonical_is_churn_sub"
+  },
+  "usage": {
+    "subscription_id": "canonical_sub_id",
+    "usage_date": "canonical_usage_date",
+    "usage_count": "canonical_volume",
+    "usage_duration_secs": "canonical_duration",
+    "error_count": "canonical_errors",
+    "is_beta_feature": "canonical_is_beta"
+  },
+  "tickets": {
+    "account_id": "canonical_id",
+    "ticket_id": "canonical_ticket_id",
+    "submitted_at": "canonical_ticket_date",
+    "resolution_time_hours": "canonical_resolution_hours",
+    "priority": "canonical_priority",
+    "first_response_time_minutes": "canonical_first_response",
+    "satisfaction_score": "canonical_satisfaction",
+    "escalation_flag": "canonical_escalation"
+  },
+  "churn": {
+    "account_id": "canonical_id",
+    "churn_date": "canonical_churn_date",
+    "reason_code": "canonical_churn_reason",
+    "refund_amount_usd": "canonical_refund",
+    "feedback_text": "canonical_feedback",
+    "is_reactivation": "canonical_is_reactivation"
+  }
+}

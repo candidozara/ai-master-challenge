@@ -1,0 +1,10 @@
+{
+  "churn": {
+    "id_cliente": "canonical_id",
+    "data_cancelamento": "canonical_churn_date",
+    "motivo_codigo": "canonical_churn_reason",
+    "valor_reembolso_brl": "canonical_refund",
+    "e_reativacao": "canonical_is_reactivation",
+    "comentario_cliente": "canonical_feedback"
+  }
+}

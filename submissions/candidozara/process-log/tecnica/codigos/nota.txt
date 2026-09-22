@@ -1,0 +1,14 @@
+O Contrato Canônico Universal (O Padrão Interno)
+Não importa se o nome original é account_id, client_uuid ou id_cliente; por dentro, o motor só vai processar usando estas chaves padronizadas:
+
+
+
+
+
+O arquivo __init__.py tem como funções principais:
+
+Identificador de Pacote: Ele serve para avisar o interpretador do Python que a pasta onde ele está localizado é um pacote (package) de código e não apenas uma pasta comum do sistema operacional.
+
+Habilita Imports: Sem a presença dele em cada subdiretório, o Python bloqueia e não reconhece caminhos de importação entre pastas (como o from src.adapters.mapper import ...).
+
+Conteúdo (Vazio): Na grande maioria dos projetos, ele fica completamente vazio (0 bytes). Ele funciona apenas como um marcador estrutural obrigatório para o Python validar a árvore de diretórios. Opcionalmente, pode conter código de inicialização global daquele subpacote, mas no nosso caso ele serve apenas para validação de pacotes.

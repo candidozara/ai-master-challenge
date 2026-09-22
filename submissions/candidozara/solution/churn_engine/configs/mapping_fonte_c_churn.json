@@ -1,0 +1,8 @@
+{
+  "churn": {
+    "id_cliente": "canonical_id",
+    "data_cancelamento": "canonical_churn_date",
+    "e_reativacao": "canonical_is_reactivation",
+    "comentario_cliente": "canonical_feedback"
+  }
+}

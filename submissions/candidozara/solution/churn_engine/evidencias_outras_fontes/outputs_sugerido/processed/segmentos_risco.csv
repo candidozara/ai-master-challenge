@@ -1,0 +1,14 @@
+dimensao,valor,contas,churns,mrr_total,taxa_churn_pct
+industry,DevTools,113,35,192311,31.0
+industry,FinTech,112,25,303409,22.3
+industry,HealthTech,96,21,221921,21.9
+industry,EdTech,79,13,274696,16.5
+industry,Cybersecurity,100,16,226218,16.0
+plan,Enterprise,154,34,420439,22.1
+plan,Basic,168,37,384205,22.0
+plan,Pro,178,39,413911,21.9
+referral_source,event,96,29,217593,30.2
+referral_source,other,103,25,249130,24.3
+referral_source,ads,98,23,211220,23.5
+referral_source,organic,114,20,275978,17.5
+referral_source,partner,89,13,264634,14.6

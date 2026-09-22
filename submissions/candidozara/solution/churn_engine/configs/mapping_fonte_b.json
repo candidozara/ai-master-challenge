@@ -1,0 +1,54 @@
+{
+  "accounts": {
+    "client_uuid": "canonical_id",
+    "client_name": "canonical_name",
+    "vertical": "canonical_industry",
+    "country_code": "canonical_country",
+    "created_at": "canonical_signup_date",
+    "lead_channel": "canonical_referral_source",
+    "tier": "canonical_plan",
+    "licenses": "canonical_seats",
+    "trialing": "canonical_is_trial",
+    "is_cancelled": "canonical_is_churn_account"
+  },
+  "subscriptions": {
+    "contract_id": "canonical_sub_id",
+    "client_uuid": "canonical_id",
+    "contract_start": "canonical_sub_start",
+    "contract_end": "canonical_sub_end",
+    "tier": "canonical_sub_plan",
+    "licenses": "canonical_sub_seats",
+    "monthly_recurring_rev": "canonical_revenue",
+    "annual_recurring_rev": "canonical_arr",
+    "invoice_cycle": "canonical_billing_frequency",
+    "upgraded": "canonical_upgrade",
+    "downgraded": "canonical_downgrade",
+    "is_cancelled": "canonical_is_churn_sub"
+  },
+  "usage": {
+    "contract_id": "canonical_sub_id",
+    "event_date": "canonical_usage_date",
+    "hits": "canonical_volume",
+    "duration_seconds": "canonical_duration",
+    "errors": "canonical_errors",
+    "beta_flag": "canonical_is_beta"
+  },
+  "tickets": {
+    "client_uuid": "canonical_id",
+    "case_id": "canonical_ticket_id",
+    "opened_at": "canonical_ticket_date",
+    "resolution_hours": "canonical_resolution_hours",
+    "severity": "canonical_priority",
+    "sla_minutes": "canonical_first_response",
+    "csat": "canonical_satisfaction",
+    "was_escalated": "canonical_escalation"
+  },
+  "churn": {
+    "client_uuid": "canonical_id",
+    "cancel_date": "canonical_churn_date",
+    "cancel_reason": "canonical_churn_reason",
+    "refund_usd": "canonical_refund",
+    "customer_note": "canonical_feedback",
+    "is_winback": "canonical_is_reactivation"
+  }
+}

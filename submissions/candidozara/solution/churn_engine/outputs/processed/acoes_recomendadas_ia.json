@@ -1,0 +1,70 @@
+[
+  {
+    "conta": "Company_66",
+    "id": "A-526d93",
+    "acao_recomendada": "Reunião de Retenção Imediata",
+    "urgencia": "Alta",
+    "motivos": [
+      "Risco de nível Crítico identificado pelo sistema",
+      "Queda acentuada no uso (-51.7%) com flag de queda ativa",
+      "Status de churn de sub-conta confirmado (canonical_is_churn_sub: true)",
+      "Baixa satisfação média (3.5) e histórico de churn relacionado a suporte",
+      "Inatividade de 9 dias em conta de alto valor (ARR de 102.684)"
+    ],
+    "fonte": "IA local (gemma4:12b)"
+  },
+  {
+    "conta": "Company_19",
+    "id": "A-832ec2",
+    "acao_recomendada": "Agendar reunião de sucesso do cliente (Success Call) imediata para investigar a queda de engajamento e resolver gargalos técnicos.",
+    "urgencia": "Alta",
+    "motivos": [
+      "Risco de nível Crítico (risco_nivel_regra: Crítico)",
+      "Queda de 50% no uso recente (uso_recente: 9.0 vs uso_anterior: 18.0)",
+      "Conta de alto valor (Enterprise) ainda em período de trial",
+      "Inatividade de 8 dias e histórico de ticket escalado",
+      "Queda de uso confirmada pelo sistema (queda_uso_flag: true)"
+    ],
+    "fonte": "IA local (gemma4:12b)"
+  },
+  {
+    "conta": "Company_153",
+    "id": "A-544d0a",
+    "acao_recomendada": "Entrar em contato imediato para entender a queda de uso e oferecer suporte de onboarding para conversão de trial.",
+    "urgencia": "Alta",
+    "motivos": [
+      "Conta em período de trial com risco classificado como Crítico",
+      "Queda significativa de 31.8% no uso recente com flag de queda ativa",
+      "Inatividade de 13 dias desde o último uso",
+      "Necessidade de engajamento para converter a conta trial em cliente ativo"
+    ],
+    "fonte": "IA local (gemma4:12b)"
+  },
+  {
+    "conta": "Company_100",
+    "id": "A-fd7ad3",
+    "acao_recomendada": "Agendar reunião de reengajamento imediato com o CSM",
+    "urgencia": "Alta",
+    "motivos": [
+      "Risco de nível Crítico identificado pelo sistema",
+      "Queda de 100% no uso recente (uso_recente: 0.0)",
+      "Conta de alto valor (Plano Enterprise)",
+      "Inatividade de 36 dias e ausência de interações recentes (75 dias sem tickets)"
+    ],
+    "fonte": "IA local (gemma4:12b)"
+  },
+  {
+    "conta": "Company_423",
+    "id": "A-3cc791",
+    "acao_recomendada": "Entrar em contato imediato para diagnóstico de churn e plano de recuperação",
+    "urgencia": "Alta",
+    "motivos": [
+      "Conta de alto valor (Plano Enterprise)",
+      "Risco de nível Crítico",
+      "Queda de 100% no uso recente (uso_recente: 0.0)",
+      "36 dias sem qualquer atividade registrada",
+      "Histórico de churn por falta de funcionalidades (features)"
+    ],
+    "fonte": "IA local (gemma4:12b)"
+  }
+]

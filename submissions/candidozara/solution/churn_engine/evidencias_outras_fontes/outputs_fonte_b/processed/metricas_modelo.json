@@ -1,0 +1,16 @@
+{
+  "treinado": true,
+  "n_contas": 500,
+  "n_folds": 5,
+  "roc_auc": 0.562,
+  "roc_auc_std": 0.036,
+  "roc_auc_por_fold": [
+    0.589,
+    0.566,
+    0.526,
+    0.612,
+    0.516
+  ],
+  "sinal_confiavel": false,
+  "interpretacao": "Sinal fraco, mas acima do acaso: adicionar recência de uso/ticket e taxas normalizadas (erro/uso, escalação/tickets) melhorou o ROC-AUC frente à primeira versão (que usava só totais brutos), mas ainda não é forte o suficiente pra decidir sozinho quem o CS liga. Use como sinal secundário, priorizando pelo score de regra (determinístico e auditável)."
+}

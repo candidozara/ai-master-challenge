@@ -1,0 +1,54 @@
+{
+  "accounts": {
+    "id_cliente": "canonical_id",
+    "nome_empresa": "canonical_name",
+    "setor_atuacao": "canonical_industry",
+    "pais_sede": "canonical_country",
+    "origem_lead": "canonical_referral_source",
+    "data_cadastro": "canonical_signup_date",
+    "nivel_plano": "canonical_plan",
+    "qtd_licencas": "canonical_seats",
+    "em_periodo_teste": "canonical_is_trial",
+    "cliente_cancelou": "canonical_is_churn_account"
+  },
+  "subscriptions": {
+    "id_contrato": "canonical_sub_id",
+    "id_cliente": "canonical_id",
+    "data_inicio_contrato": "canonical_sub_start",
+    "data_fim_contrato": "canonical_sub_end",
+    "nivel_plano": "canonical_sub_plan",
+    "qtd_licencas": "canonical_sub_seats",
+    "valor_mensal_brl": "canonical_revenue",
+    "valor_anual_brl": "canonical_arr",
+    "houve_upgrade": "canonical_upgrade",
+    "houve_downgrade": "canonical_downgrade",
+    "contrato_cancelado": "canonical_is_churn_sub",
+    "periodicidade_cobranca": "canonical_billing_frequency"
+  },
+  "usage": {
+    "id_contrato": "canonical_sub_id",
+    "data_uso": "canonical_usage_date",
+    "qtd_utilizacoes": "canonical_volume",
+    "duracao_segundos": "canonical_duration",
+    "qtd_erros": "canonical_errors",
+    "e_funcionalidade_beta": "canonical_is_beta"
+  },
+  "tickets": {
+    "id_chamado": "canonical_ticket_id",
+    "id_cliente": "canonical_id",
+    "aberto_em": "canonical_ticket_date",
+    "horas_resolucao": "canonical_resolution_hours",
+    "prioridade": "canonical_priority",
+    "minutos_primeira_resposta": "canonical_first_response",
+    "nota_satisfacao": "canonical_satisfaction",
+    "foi_escalado": "canonical_escalation"
+  },
+  "churn": {
+    "id_cliente": "canonical_id",
+    "data_cancelamento": "canonical_churn_date",
+    "motivo_codigo": "canonical_churn_reason",
+    "valor_reembolso_brl": "canonical_refund",
+    "e_reativacao": "canonical_is_reactivation",
+    "comentario_cliente": "canonical_feedback"
+  }
+}

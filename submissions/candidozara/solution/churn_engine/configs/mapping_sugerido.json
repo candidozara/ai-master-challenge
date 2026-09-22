@@ -1,0 +1,10 @@
+{
+  "usage": {
+    "contract_id": "canonical_sub_id",
+    "event_date": "canonical_usage_date",
+    "hits": "canonical_volume",
+    "duration_seconds": "canonical_duration",
+    "errors": "canonical_errors",
+    "beta_flag": "canonical_is_beta"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tickets": {
+    "id_chamado": "canonical_ticket_id",
+    "id_cliente": "canonical_id",
+    "horas_resolucao": "canonical_resolution_hours",
+    "prioridade": "canonical_priority",
+    "minutos_primeira_resposta": "canonical_first_response",
+    "nota_satisfacao": "canonical_satisfaction",
+    "foi_escalado": "canonical_escalation"
+  }
+}

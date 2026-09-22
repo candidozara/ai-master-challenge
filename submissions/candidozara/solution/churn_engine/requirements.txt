@@ -1,0 +1,16 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+reportlab>=4.0
+openpyxl>=3.1  # leitura de arquivos .xlsx/.xls (dados próprios em Excel, não só CSV)
+
+# Só para o painel local (dashboard.py) -- o motor (main.py) roda sem isso
+streamlit>=1.38
+plotly>=5.20
+
+# Só para o modo --usar-ia do sugerir_mapping.py e do demo_ia_gestao.py (opcional, ver README)
+anthropic>=0.40
+
+# Só para o servidor MCP (integrations/g4os_mcp_server.py) -- integração com G4 OS
+# Fixado em <2.0: a v2 renomeou FastMCP -> MCPServer e mudou a API (achado ao testar)
+mcp>=1.0,<2.0

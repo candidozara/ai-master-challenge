@@ -1,0 +1,6 @@
+{
+  "accounts": {
+    "id_cliente": "canonical_id",
+    "data_cadastro": "canonical_signup_date"
+  }
+}

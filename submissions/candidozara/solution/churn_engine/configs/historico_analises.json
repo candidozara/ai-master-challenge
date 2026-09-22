@@ -1,0 +1,16 @@
+[
+  {
+    "id": "20260920_192552",
+    "nome": "Diagnóstico do desafio (dados RavenStack)",
+    "data_criacao": "2026-09-20T19:25:52",
+    "output_dir": "outputs",
+    "resumo_fonte": "Dados de exemplo do desafio -- accounts, subscriptions, usage, tickets, churn"
+  },
+  {
+    "id": "20260920_194753",
+    "nome": "Análise 20/09 19:47",
+    "data_criacao": "2026-09-20T19:47:53",
+    "output_dir": "outputs_analises\\analise_20260920_194750",
+    "resumo_fonte": "1) Clientes, 2) Contratos, 3) Uso da plataforma (opcional), 4) Chamados de suporte (opcional), 5) Cancelamentos"
+  }
+]

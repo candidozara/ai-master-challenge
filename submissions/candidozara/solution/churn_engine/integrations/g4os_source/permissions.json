@@ -1,0 +1,11 @@
+{
+  "allowedMcpPatterns": [
+    { "pattern": "listar_contas_risco", "comment": "Só leitura" },
+    { "pattern": "obter_segmentos_risco", "comment": "Só leitura" },
+    { "pattern": "obter_metricas_modelo", "comment": "Só leitura" },
+    { "pattern": "sugerir_mapeamento_coluna", "comment": "Só leitura -- não altera nada, só sugere" },
+    { "pattern": "validar_saida", "comment": "Só leitura -- roda checagens, não altera dados" },
+    { "pattern": "rodar_diagnostico", "comment": "Escreve em outputs/ (CSV/JSON/PDF/Markdown) -- liberado a pedido explícito do dono do workspace, pra o agente conseguir rodar o motor sozinho sem pedir confirmação a cada vez" },
+    { "pattern": "decidir_acoes_recomendadas", "comment": "Pode chamar uma API de IA paga (Anthropic) pra sugerir ação por conta -- liberado a pedido explícito do dono do workspace. Nunca executa a ação sozinho (não manda e-mail, não abre ticket, não aplica desconto) -- só sugere." }
+  ]
+}

@@ -1,0 +1,4 @@
+Primeiro ponto é que o Churn pode ser recorrente ele é vivo, no entando as orgins podem mudar.
+Fazer algo engessado, pode ser uma dor de cabeça posterior mente então tem que ser 
+uma ferramenta independente e ao mesmo tempo acoplavel para outros lugar.
+Ou uma ferramenta que eu posso acoplar em outras ferramentas e trabalhar em conjunto.
