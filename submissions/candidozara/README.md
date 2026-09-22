@@ -75,7 +75,9 @@ python main.py            # abre o painel no navegador
 python main.py --menu     # menu no terminal, sem navegador
 ```
 
-Passo a passo completo (incluindo o aviso do Windows SmartScreen e como gerar o `.exe`): [`docs/como_rodar.md`](docs/como_rodar.md).
+**Gerar o executável:** no Windows, `pip install -r requirements.txt` e depois `python build_exe.py` (de preferência num venv) → `dist/churn_engine/churn_engine.exe`.
+
+Passo a passo completo (executável, código-fonte, como gerar e distribuir o `.exe`, aviso do Windows SmartScreen): [`docs/como_rodar.md`](docs/como_rodar.md).
 
 ---
 
